@@ -9,9 +9,19 @@
 
 # Slide
 
-- สร้าง Folder ของ Center week นั้นเช่น CT BKK 17/01/2025 [Link](https://drive.google.com/drive/folders/1LKdFBumq2i1_UkL5rLDKS9eiQSPd4lB0?usp=sharing)
+- 1. สร้าง Folder ของ Center สัปดาห์นั้นเช่น CT BKK 17/01/2025 ใน [Link](https://drive.google.com/drive/folders/1LKdFBumq2i1_UkL5rLDKS9eiQSPd4lB0?usp=sharing)
 
-- ส่ง Checklist ลงในกลุ่ม Center Manager ตามตัวอย่าง
+> จากนั้นสร้าง Folder แต่ละช่วงตามเนื้อ Center สัปดาห์นั้นๆ เช่น
+
+```
+🗂️ MC
+🗂️ Media
+🗂️ Product
+🗂️ Rising Star
+🗂️ Tech
+```
+
+- 2. ส่ง Checklist ลงในกลุ่ม Center Manager โดยแก้เป็นข้อมูลของสัปดาห์นั้นๆ รวมถึง link drive เช่นกัน ตามตัวอย่าง
 
 ```
 📌SLIDE CT BKK
@@ -54,9 +64,12 @@ CENTER BKK 17/01/2025
 https://drive.google.com/drive/folders/161ncpxZ9xDmVSgq-k4Xv0icapOeUhhLv
 ```
 
-- Download คลิปเปิด CT [Link](https://drive.google.com/drive/folders/1OrYG39KymlssH8qigAm5T5mb3BKU2onW?usp=drive_link)
+- 3. Download 🎬 คลิปเปิด CT [Link](https://drive.google.com/drive/folders/1OrYG39KymlssH8qigAm5T5mb3BKU2onW?usp=drive_link)
 
+- 4. Download 🎬 คลิปเปิดช่วงและ Slide เนื้อหาต่างๆรวมถึง 🏞️ Poster ในสัปดาห์นั้นๆ ตาม 🗂️ ที่สร้างไว้ในข้อ 1
+> โดยทีม Media จะอัปโหลดทั้ง 🎬 คลิปเปิดแต่ละช่วงรวมถึง 🏞️ Poster ไว้ใน 🗂️ Media ที่สร้างไว้ในข้อ 1
 
+- Download RULES & EVENTS [Link](https://1stpenguin.app.box.com/s/ceo8eil8b9un7tl1y9rs7gdiitylps9t/folder/54413202574)
 
 
 
