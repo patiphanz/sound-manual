@@ -1,7 +1,12 @@
 ---
 ---
 
+@font-face {
+    font-family: 'prompt';
+    src: url('assets/fonts/prompt/Prompt-Regular.ttf');
+}
+
 @import "{{ site.theme }}";
 .markdown-body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'prompt';
 }
