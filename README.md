@@ -1,11 +1,18 @@
 # Sound
 
-- ติดตั้ง Virtual DJ [Download](https://www.virtualdj.com/)
+- 1 ติดตั้ง Virtual DJ [Download](https://www.virtualdj.com/)
 
-- เตรียมเพลงสำหรับขึ้น-ลงช่วงต่างๆใน Function วันนั้น [Download](https://drive.google.com/drive/folders/1ykWQJp6Ke2NdsG_4qobQhsHuvqJNe-2e?usp=drive_link)
+- 2 เตรียมเพลงสำหรับขึ้น-ลงช่วงต่างๆใน Function วันนั้น [Download](https://drive.google.com/drive/folders/1ykWQJp6Ke2NdsG_4qobQhsHuvqJNe-2e?usp=drive_link)
 
-- เตรียม Effect [Download](https://drive.google.com/drive/folders/1piwMEiz7mULhYxqFVgrO6rHOseXb-3N_?usp=drive_link)
+- 3 เตรียม Effect [Download](https://drive.google.com/drive/folders/1piwMEiz7mULhYxqFVgrO6rHOseXb-3N_?usp=drive_link)
 
+### *** มาถึง Center 17:30 - 18:00 ***
+
+- Sound และ Slide ยกอุปกรณ์จาก Locker ขึ้นมาติดตั้ง
+
+- 🔈 ตั้งลำโพงทั้งสองข้างของเวที
+
+- 🎛️ ติดตั้ง Mixer
 
 # Slide
 
