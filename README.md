@@ -72,8 +72,11 @@ https://drive.google.com/drive/folders/161ncpxZ9xDmVSgq-k4Xv0icapOeUhhLv
 
 - 5 Download RULES & EVENTS [Link](https://1stpenguin.app.box.com/s/ceo8eil8b9un7tl1y9rs7gdiitylps9t/folder/54413202574)
 
++ 6 สำหรับ 👑 Hall of Fame 👑
 
+  + Download 🎬 คลิปเปิด Moving Up [Link](https://drive.google.com/file/d/1WYaTt4BZA9MDj5pGsXrCb82j5AMkCcLV/view?usp=sharing)
 
+  + Download Slide ตาม 🗂️ ที่สร้างไว้ในข้อ 1
 
 
 # Sound
