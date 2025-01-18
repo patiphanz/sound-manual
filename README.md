@@ -1,4 +1,10 @@
-[TOCM]
+# Sound
+- ติดตั้ง Virtual DJ [Download](https://www.virtualdj.com/)
+- เตรียมเพลงสำหรับขึ้น-ลงช่วงต่างๆใน Function วันนั้น [Download](https://drive.google.com/drive/folders/1ykWQJp6Ke2NdsG_4qobQhsHuvqJNe-2e?usp=drive_link)
+- เตรียม Effect [Download](https://drive.google.com/drive/folders/1piwMEiz7mULhYxqFVgrO6rHOseXb-3N_?usp=drive_link)
+
+# Slide
+- สร้่าง Folder ของ Center week นั้นเช่น CT BKK 17/01/2025 โดยเข้าไปใน Folder 2025 ก่อน [Link](https://drive.google.com/drive/folders/1OrYG39KymlssH8qigAm5T5mb3BKU2onW?usp=drive_link)
 
 # Sound
 - เปิด Effect ตลอดทุกช่วง
