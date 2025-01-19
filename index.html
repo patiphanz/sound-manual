@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind with Prompt Font</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Tailwind Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            prompt: ['Prompt', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    /* Fallback CSS */
+    .font-prompt {
+      font-family: 'Prompt', sans-serif;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-prompt bg-gray-100 text-gray-900">
+  <!-- Container -->
+  <div class="container mx-auto px-4 lg:px-16 xl:px-32 py-8 space-y-8 max-w-screen-xl">
+    <!-- หน้าเลือก Card -->
+    <div id="card-selection" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <!-- Card: Sound -->
+      <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-lg cursor-pointer" onclick="showSection('sound')">
+        <h2 class="text-xl font-bold text-blue-600">Sound</h2>
+        <p class="mt-2 text-gray-600">ดูรายละเอียดการติดตั้งและการจัดการอุปกรณ์เสียง</p>
+      </div>
+      <!-- Card: Slide -->
+      <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-lg cursor-pointer" onclick="showSection('slide')">
+        <h2 class="text-xl font-bold text-green-600">Slide</h2>
+        <p class="mt-2 text-gray-600">ดูรายละเอียดเกี่ยวกับการเตรียมและการส่งสไลด์</p>
+      </div>
+    </div>
+
+    <!-- Section: Sound -->
+    <div id="sound-section" class="hidden">
+      <div class="bg-white shadow-lg rounded-lg p-8">
+        <section class="py-8">
+          <h1 class="text-2xl font-bold">Sound</h1>
+          <ol class="list-decimal ml-6 space-y-2">
+            <li>ติดตั้ง Virtual DJ <a href="https://www.virtualdj.com/" class="text-blue-500 underline hover:text-blue-700">Download</a></li>
+            <li>เตรียมเพลงสำหรับขึ้น-ลงช่วงต่างๆใน Function วันนั้น <a href="https://drive.google.com/drive/folders/1ykWQJp6Ke2NdsG_4qobQhsHuvqJNe-2e?usp=drive_link" class="text-blue-500 underline hover:text-blue-700">Download</a></li>
+            <li>เตรียม Effect <a href="https://drive.google.com/drive/folders/1piwMEiz7mULhYxqFVgrO6rHOseXb-3N_?usp=drive_link" class="text-blue-500 underline hover:text-blue-700">Download</a></li>
+          </ol>
+          <h3 class="text-lg font-semibold mt-8">*** มาถึง Center 17:30 - 18:00 ***</h3>
+          <ul class="list-disc ml-6 mt-4 space-y-2">
+            <li>🗄️ Sound และ Slide ยกอุปกรณ์จาก Locker ขึ้นมาติดตั้ง</li>
+            <li>🖥️ ติดตั้ง Projector</li>
+            <li>🔈 ตั้งลำโพงทั้งสองข้างของเวที</li>
+            <blockquote class="ml-6 italic text-gray-600 border-l-4 border-blue-500 pl-4">
+              โดยหลังลำโพงปรับ CH1 ไว้ที่ 12 นาฬิกา และ MAIN ไว้ที่มากที่สุด
+            </blockquote>
+            <li>🎛️ ติดตั้ง Mixer</li>
+            <li>🎤 ติดตั้งไมค์</li>
+            <li>ตั้งระดับความดังในเครื่องของคอม Sound และ Slide ไว้ที่ 80%</li>
+            <li>ทดสอบความดังของไมค์ทั้ง 4 ตัว รวมถึงเสียงคอม Slide และ คอม Sound</li>
+            <li>ทดสอบเอา Slide ขึ้นโปรเจคเตอร์รวมถึงคลิปทุกช่วงพร้อมเปิดเสียง</li>
+          </ul>
+          <button class="mt-4 px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded" onclick="goBack()">กลับ</button>
+        </section>
+      </div>
+    </div>
+
+    <!-- Section: Slide -->
+    <div id="slide-section" class="hidden">
+      <div class="bg-white shadow-lg rounded-lg p-8">
+        <section class="py-8">
+          <h1 class="text-2xl font-bold">Slide</h1>
+          <blockquote class="ml-6 italic text-gray-600 border-l-4 border-green-500 pl-4">
+            Macbook หรือ Notebook ที่ไม่มีช่อง HDMI ต้องมี adapter แปลงมาด้วยทุกครั้งที่ทำหน้าที่
+          </blockquote>
+          <ol class="list-decimal ml-6 mt-4 space-y-4">
+            <li>
+              สร้าง Folder ของ Center สัปดาห์นั้นเช่น CT BKK 17/01/2025 ใน 
+              <a href="https://drive.google.com/drive/folders/1LKdFBumq2i1_UkL5rLDKS9eiQSPd4lB0?usp=sharing" class="text-blue-500 underline hover:text-blue-700">Link</a>
+            </li>
+            <blockquote class="ml-6 italic text-gray-600">
+              จากนั้นสร้าง Folder แต่ละช่วงตามเนื้อ Center สัปดาห์นั้นๆ เช่น
+              <pre class="bg-gray-50 p-4 rounded mt-2 overflow-auto">
+  🗂️ MC
+  🗂️ Media
+  🗂️ Product
+  🗂️ Rising Star
+  🗂️ Tech
+              </pre>
+            </blockquote>
+            <li>
+              ส่ง Checklist ลงในกลุ่ม Center Manager โดยแก้เป็นข้อมูลของสัปดาห์นั้นๆ รวมถึง link drive เช่นกัน ตามตัวอย่าง
+              <pre class="bg-gray-50 p-4 rounded mt-2 overflow-auto">
+  📌SLIDE CT BKK
+  17/01/2025 📌
+
+  ‼️Deadline วันพฤหัสบดี
+  16/01/2025 ก่อน 23.59 น.‼️
+
+  🌟รบกวนอ่านรายละเอียดก่อนส่งสไลด์🌟
+  - ❗ขนาดสไลด์ 16:9 นะครับ❗
+  - ส่งเป็นไฟล์ powerpoint เท่านั้น
+  **ไม่รับ pdf นะครับ**
+  ปล.ให้บันทึกเป็นรูปภาพก่อนแล้วเอามาแปะใน 
+  powerpoint เพื่อป้องกันตัวอักษรเคลื่อนครับ
+
+  ====================
+  🎥 คลิปเปิด CT :
+  ====================
+  🎤 MC :
+  ====================
+  🎬คลิปเปิด Product :
+  ====================
+  🫧 Products :
+  ====================
+  🎬คลิปเปิด Rising star:
+  ====================
+  ⭐Rising Star :
+  ====================
+  🎬คลิปเปิด Technique :
+  ====================
+  💎 Technique :
+  ====================
+  🏞️ Poster Next Week :
+  ====================
+
+  ***ใครส่งสไลด์แล้วรบกวนติ๊ก ✅
+  หลังชื่อตัวเองด้วยนะครับ ขอบคุณครับ🙏🏻***
+
+  CENTER BKK 17/01/2025
+  https://drive.google.com/drive/folders/161ncpxZ9xDmVSgq-k4Xv0icapOeUhhLv
+              </pre>
+            </li>
+            <li>Download 🎬 คลิปเปิด CT <a href="https://drive.google.com/file/d/1jH9fjcxSfu_rLt_t1S-8GI6ZwhvvuRB8/view?usp=drive_link" class="text-blue-500 underline hover:text-blue-700">Link</a></li>
+            <li>
+              Download 🎬 คลิปเปิดช่วงและ Slide เนื้อหาต่างๆรวมถึง 🏞️ Poster ในสัปดาห์นั้นๆ ตาม 🗂️ ที่สร้างไว้ในข้อ 1
+              <blockquote class="ml-6 italic text-gray-600 border-l-4 border-yellow-500 pl-4">
+                โดยทีม Media จะอัปโหลดทั้ง 🎬 คลิปเปิดแต่ละช่วงรวมถึง 🏞️ Poster ไว้ใน 🗂️ Media ที่สร้างไว้ในข้อ 1
+              </blockquote>
+            </li>
+            <li>Download RULES & EVENTS <a href="https://1stpenguin.app.box.com/s/ceo8eil8b9un7tl1y9rs7gdiitylps9t/folder/54413202574" class="text-blue-500 underline hover:text-blue-700">Link</a></li>
+            <li>
+              สำหรับ 👑 Hall of Fame 👑
+              <ul class="list-disc ml-6">
+                <li>Download 🎬 คลิปเปิด Moving Up <a href="https://drive.google.com/file/d/1WYaTt4BZA9MDj5pGsXrCb82j5AMkCcLV/view?usp=sharing" class="text-blue-500 underline hover:text-blue-700">Link</a></li>
+                <li>Download Slide ตาม 🗂️ ที่สร้างไว้ในข้อ 1</li>
+              </ul>
+            </li>
+          </ol>
+          <h3 class="text-lg font-semibold mt-8">*** มาถึง Center 17:30 - 18:00 ***</h3>
+          <ul class="list-disc ml-6 mt-4 space-y-2">
+            <li>🗄️ Sound และ Slide ยกอุปกรณ์จาก Locker ขึ้นมาติดตั้ง</li>
+            <li>🖥️ ติดตั้ง Projector</li>
+            <li>🔈 ตั้งลำโพงทั้งสองข้างของเวที</li>
+            <blockquote class="ml-6 italic text-gray-600 border-l-4 border-blue-500 pl-4">
+              โดยหลังลำโพงปรับ CH1 ไว้ที่ 12 นาฬิกา และ MAIN ไว้ที่มากที่สุด
+            </blockquote>
+            <li>🎛️ ติดตั้ง Mixer</li>
+            <li>🎤 ติดตั้งไมค์</li>
+            <li>ตั้งระดับความดังในเครื่องของคอม Sound และ Slide ไว้ที่ 80%</li>
+            <li>ทดสอบความดังของไมค์ทั้ง 4 ตัว รวมถึงเสียงคอม Slide และ คอม Sound</li>
+            <li>ทดสอบเอา Slide ขึ้นโปรเจคเตอร์รวมถึงคลิปทุกช่วงพร้อมเปิดเสียง</li>
+          </ul>
+          <button class="mt-4 px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded" onclick="goBack()">กลับ</button>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ฟังก์ชันแสดง Section ตามการเลือก
+    function showSection(section) {
+      document.getElementById('card-selection').classList.add('hidden');
+      document.getElementById(`${section}-section`).classList.remove('hidden');
+    }
+
+    // ฟังก์ชันกลับไปที่หน้าเลือก Card
+    function goBack() {
+      document.getElementById('card-selection').classList.remove('hidden');
+      document.getElementById('sound-section').classList.add('hidden');
+      document.getElementById('slide-section').classList.add('hidden');
+    }
+  </script>
+</body>
+</html>
