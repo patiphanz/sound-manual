@@ -85,7 +85,7 @@ CENTER BKK 17/01/2025
 https://drive.google.com/drive/folders/161ncpxZ9xDmVSgq-k4Xv0icapOeUhhLv
 ```
 
-- 3 Download 🎬 คลิปเปิด CT [Link](https://drive.google.com/drive/folders/1OrYG39KymlssH8qigAm5T5mb3BKU2onW?usp=drive_link)
+- 3 Download 🎬 คลิปเปิด CT [Link]([https://drive.google.com/drive/folders/1OrYG39KymlssH8qigAm5T5mb3BKU2onW?usp=drive_link](https://drive.google.com/file/d/1jH9fjcxSfu_rLt_t1S-8GI6ZwhvvuRB8/view?usp=drive_link))
 
 - 4 Download 🎬 คลิปเปิดช่วงและ Slide เนื้อหาต่างๆรวมถึง 🏞️ Poster ในสัปดาห์นั้นๆ ตาม 🗂️ ที่สร้างไว้ในข้อ 1
 
