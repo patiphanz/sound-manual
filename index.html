@@ -4,13 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Tailwind Page</title>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            prompt: ['Prompt', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-gray-100 text-gray-900">
+<body class="bg-gray-100 text-gray-900 font-prompt">
   <div class="container mx-auto px-4 py-8">
-    <h1 class="text-4xl font-bold text-center">สวัสดี, Tailwind CSS!</h1>
-    <p class="mt-4 text-center text-gray-600">This is your first GitHub Page with Tailwind CSS.</p>
+    <h1 class="text-4xl font-bold text-center font-prompt">สวัสดี Welcome with Prompt Font</h1>
+    <p class="font-prompt text-gray-600">Tailwind CSS is amazing!</p>
   </div>
 </body>
 </html>
