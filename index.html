@@ -45,7 +45,14 @@
         <h2 class="text-xl font-bold text-green-600">Slide</h2>
         <p class="mt-2 text-gray-600">ดูรายละเอียดเกี่ยวกับการเตรียมและการส่งสไลด์</p>
       </div>
+      
+      <!-- Card: Timer -->
+      <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-lg cursor-pointer" onclick="showSection('timer')">
+        <h2 class="text-xl font-bold text-orange-600">Timer</h2>
+        <p class="mt-2 text-gray-600">ดูรายละเอียดเกี่ยวกับการเตรียมและการส่งสไลด์</p>
+      </div>
     </div>
+    
 
     <!-- Section: Sound -->
     <div id="sound-section" class="hidden">
@@ -201,7 +208,59 @@
         </section>
       </div>
     </div>
+    
+    <!-- Section: Timer -->
+    <div id="timer-section" class="hidden">
+      <div class="bg-white shadow-lg rounded-lg p-8">
+        <section class="py-8 space-y-8">
+          <button class="mt-4 px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded" onclick="goBack()">กลับ</button>
+          <h1 class="text-2xl font-bold">Timer</h1>
+          <h3 class="text-red-500 text-lg font-semibold mt-8">*** มาถึง Center 17:30 - 18:30 ***</h3>
+          <ol class="list-decimal ml-6 space-y-8">
+          	<li>ก่อนเริ่ม 18.55 น. ตั้งเวลานับถอยหลัง 10 นาที (เพื่อกันลืม, เปิดเวลาให้คนเปิดไฟและ Sound ทราบ)</li>
+          	<li>MC เริ่ม ตั้งเวลา 10 นาทีนับถอยหลังให้ MC ลงก่อน 19.05 น.</li>
+            <blockquote class="ml-6 italic text-gray-600 border-l-4 border-red-500 pl-4">
+              ลงก่อนได้ แต่ห้ามเลยเวลาจากที่เราตั้ง
+            </blockquote>
+            <li>Product ตั้งเวลานับถอยหลัง 30 นาที (19.05 - 19.35 น.)</li>
+			<li>MC ถ้าขึ้นก่อนเวลา ตั้งเวลาที่เหลือนับถอยหลังจนถึงช่วงถัดไป เช่น ขึ้น 19.28น. ช่วงถัดไปขึ้น 19.40. ให้ตั้งเวลานับถอยหลัง 12 นาที</li>
+            <blockquote class="ml-6 italic text-gray-600 border-l-4 border-green-500 pl-4">
+              ให้ MC จัดการเวลา ควรเหลือเวลาอย่างน้อย 5 นาทีแล้วลง เพื่อให้เวลาไปเพิ่มในช่วงอื่นๆ หรือให้เลทได้
+            </blockquote>
+            <li>WIJ ขึ้นก่อน ขึ้นหลังให้ตั้งเวลาเหมือนกัน 10 นาที</li>
+            <li>MC ถ้าขึ้นหลังจากเวลาที่กำหนด ควรจะพูดให้สั้นที่สุดตัดเนื้อหาเล่นออก เพื่อให้ขึ้นช่วง Tech.ทันเวลา เช่นตาราง Tech. เชิญขึ้น 19.55- 20.45 น. (50นาที)</li>
+            <blockquote class="ml-6 italic text-gray-600 border-l-4 border-blue-500 pl-4">
+              ถ้าขึ้นก่อนเวลา เช่น MC ขึ้น 19.42 น. ให้ตั้งเวลาเพิ่มให้ช่วง Tech. นับถอยหลัง 13+50 นาทีเพื่อให้ช่วง Tech. ลงเวลาเดิมคือ 20.45 น.
+			</blockquote>
+            <li>Event ตั้งเวลานับถอยหลังจนถึง 21.00 น. เช่น ถ้าช่วง Tech. ลง 20.47 น. ตั้งเวลา 13 นาที</li>
+          </ol>
+          <ul class="list-disc ml-6 mt-4 space-y-8">
+          	<li>ความหมายเวลาที่โชว์ คือห้ามเกิน ลงก่อนเวลาได้</li>
+            <li>ถ้าเลยเวลาตามตารางคนที่ทำ สไลด์ ต้องตั้งเวลาให้ MC เท่าที่เหลือ เช่นปัจจุบัน 20.04 น. ช่วงต่อไปขึ้น 20.10 น. ต้องตั้งเวลาให้เหลือ 6 นาทีให้ MC ลง</li>
+            <blockquote class="ml-6 italic text-gray-600 border-l-4 border-green-500 pl-4">
+              เพื่อให้แต่ละช่วงควบคุมเวลาของตัวเองได้
+            </blockquote>
+          </ul>
+          <p>Video นับถอยหลังใช้การนับถอยหลังผ่าน Youtube </p>
+          <ul class="list-disc ml-6 mt-4 space-y-8">
+          	<li>(ต้อง Youtube Premium ถ้าจะเปิดผ่านอินเตอร์เน็ต)</li>
+            <li>(ถ้าไม่ใช้ Youtube Premium ต้องโหลด เป็น Office เก็บไว้)</li>
+            <li>กดค้นหาว่า :</li>
+            <pre class="bg-gray-50 p-4 rounded mt-2 overflow-auto">
+time countdown white 10 min
+time countdown white 30 min
+time countdown white 50 min
+time countdown white 60 min
+time countdown white 70 min
+            </pre>
+			<li>เลือกใช้ตามเวลาที่เหลือแต่ละช่วง ถ้าเหลือ 67 นาที ให้ใช้ 70 min แล้วเลื่อนกรอไปช่วง 67.00 นาที เพื่อนับถอยหลัง</li>
+          <button class="mt-4 px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded" onclick="goBack()">กลับ</button>
+        </section>
+      </div>
+    </div>
   </div>
+  
+  
 
   <script>
     // ฟังก์ชันแสดง Section ตามการเลือก
@@ -215,6 +274,7 @@
       document.getElementById('card-selection').classList.remove('hidden');
       document.getElementById('sound-section').classList.add('hidden');
       document.getElementById('slide-section').classList.add('hidden');
+      document.getElementById('timer-section').classList.add('hidden');
     }
   </script>
 </body>
