@@ -51,6 +51,12 @@
         <h2 class="text-xl font-bold text-orange-600">Timer</h2>
         <p class="mt-2 text-gray-600">ดูรายละเอียดเกี่ยวกับการเตรียมและการตั้งเวลา</p>
       </div>
+      
+      <!-- Card: Light -->
+      <div class="bg-white shadow-md rounded-lg p-6 hover:shadow-lg cursor-pointer" onclick="showSection('light')">
+        <h2 class="text-xl font-bold text-orange-600">Light</h2>
+        <p class="mt-2 text-gray-600">ดูรายละเอียดเกี่ยวกับการเปิดปิดไฟ</p>
+      </div>
     </div>
     
 
@@ -254,6 +260,27 @@ time countdown white 60 min
 time countdown white 70 min
             </pre>
 			<li>เลือกใช้ตามเวลาที่เหลือแต่ละช่วง ถ้าเหลือ 67 นาที ให้ใช้ 70 min แล้วเลื่อนกรอไปช่วง 67.00 นาที เพื่อนับถอยหลัง</li>
+          </ul>
+          <button class="mt-4 px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded" onclick="goBack()">กลับ</button>
+        </section>
+      </div>
+    </div>
+    
+    <!-- Section: Light -->
+    <div id="light-section" class="hidden">
+      <div class="bg-white shadow-lg rounded-lg p-8">
+        <section class="py-8 space-y-8">
+          <button class="mt-4 px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded" onclick="goBack()">กลับ</button>
+          <h1 class="text-2xl font-bold">Light</h1>
+          <h3 class="text-red-500 text-lg font-semibold mt-8">*** มาถึง Center 17:30 - 18:30 ***</h3>
+          <ol class="list-decimal ml-6 space-y-8">
+          	<li>ก่อนเริ่ม 18.55 น. ตั้งเวลานับถอยหลัง 10 นาที (เพื่อกันลืม, เปิดเวลาให้คนเปิดไฟและ Sound ทราบ)</li>
+          	<li>MC เริ่ม ตั้งเวลา 10 นาทีนับถอยหลังให้ MC ลงก่อน 19.05 น.</li>
+            <blockquote class="ml-6 italic text-gray-600 border-l-4 border-red-500 pl-4">
+              ลงก่อนได้ แต่ห้ามเลยเวลาจากที่เราตั้ง
+            </blockquote>
+            <li>Product ตั้งเวลานับถอยหลัง 30 นาที (19.05 - 19.35 น.)</li>
+          </ol>
           <button class="mt-4 px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded" onclick="goBack()">กลับ</button>
         </section>
       </div>
@@ -275,6 +302,7 @@ time countdown white 70 min
       document.getElementById('sound-section').classList.add('hidden');
       document.getElementById('slide-section').classList.add('hidden');
       document.getElementById('timer-section').classList.add('hidden');
+      document.getElementById('light-section').classList.add('hidden');
     }
   </script>
 </body>
